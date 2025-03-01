@@ -1,7 +1,7 @@
 lazy val root = (project in file(".")).settings(
   inThisBuild(
     List(
-      scalaVersion := "2.13.15"
+      scalaVersion := "2.13.16"
     )
   ),
   run / fork := true, // Makes exit codes work as expected
